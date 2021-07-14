@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.banner__img {
+  width: 250px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner__img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    margin-bottom: 1rem;
+  }
+}

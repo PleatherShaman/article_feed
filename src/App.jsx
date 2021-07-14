@@ -1,6 +1,13 @@
 import React from 'react';
-import './App.css';
+import Layout from './components/layout';
+import Header from './components/header';
+import Content from './components/content';
 
-const App = () => <div className="App"> Initial </div>;
+const App = () => (
+  <Layout>
+    <Header title="Article Feed" />
+    <Content />
+  </Layout>
+);
 
 export default App;
