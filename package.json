@@ -37,6 +37,9 @@
     ]
   },
   "devDependencies": {
+    "@jest/globals": "^26.6.2",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
+    "enzyme": "^3.11.0",
     "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-node": "^4.1.0",
